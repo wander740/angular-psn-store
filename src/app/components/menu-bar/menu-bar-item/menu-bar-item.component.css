@@ -1,0 +1,28 @@
+.menu-bar__item{
+  align-self: center;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.menu-bar__item > ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-bar__item > ul > li{
+  padding: 5px;
+  margin-right: 15px;
+}
+
+.menu-bar__item > ul > li > a{
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-family: 'Segoe UI','Courier New', Courier, monospace;
+}
+
+.menu-bar__item > ul > li > a:hover{
+  color: blue;
+  font-weight: 600;
+}
